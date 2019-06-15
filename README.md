@@ -12,7 +12,7 @@
 <p>The nighlight itself, you are going to pretty much gut - take the bottom off completely, use wire cutters to cut everything out except the base that supports the acrylic, and you might even need to trim that down.   You are also going to need to widen the hole in the back of the base in order to get that usb power cable through to the pi. Throw away all the existing electronics -- you don't need them, the only thing you need for this project is the round base and acrylic.
       </p>
 </div>
-<div><p>This README.md only covers the R2-D1 nightlight in LOCAL MODE (setting up a web server on EC2, creating ssh keys back and forth to your home network, host port forwarding -- it is a bit of a process) on your home network.  For that reason, I suggest setting your pi-zero-w to have a static IP on your network.  Read your router configuration manual on how to set up a static IP.</p></div>
+<div><p>This README.md only covers the R2-D2 nightlight in LOCAL MODE (setting up a web server on EC2, creating ssh keys back and forth to your home network, host port forwarding -- it is a bit of a process) on your home network.  For that reason, I suggest setting your pi-zero-w to have a static IP on your network.  Read your router configuration manual on how to set up a static IP.</p></div>
 <div><p>Burn a copy of raspbian to an sd card and set up your pi-zero-w on your local network.  Make sure the following interfaces are enabled on your pi
   <pre>sudo raspi-config</pre>
   <ul><li>SSH</li>
